@@ -1,5 +1,7 @@
 # pushstate-server
 
+Forked version with bugfixes from `https://github.com/scottcorgan/pushstate-server`
+
 Static file server that works with HTML5 Pushstate.
 
 For example, the route ` /some/pushstate/route ` will return the ` index.html ` file. But, ` /some/static/path/logo.png ` will return the ` logo.png ` static file.
