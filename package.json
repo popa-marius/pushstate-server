@@ -1,6 +1,6 @@
 {
-  "name": "pushstate-server",
-  "version": "3.1.0",
+  "name": "@popa-marius/pushstate-server",
+  "version": "3.1.1",
   "description": "Static file server that works with HTML5 Pushstate.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scottcorgan/pushstate-server.git"
+    "url": "https://github.com/popa-marius/pushstate-server.git"
   },
   "keywords": [
     "pushstate",
@@ -21,20 +21,20 @@
   "author": "Scott Corgan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scottcorgan/pushstate-server/issues"
+    "url": "https://github.com/popa-marius/pushstate-server/issues"
   },
   "dependencies": {
-    "compression": "1.7.3",
-    "connect": "3.6.6",
-    "connect-static-file": "2.0.0",
-    "minimist": "1.2.5",
-    "serve-static": "1.13.2"
+    "compression": "~1.7.3",
+    "connect": "~3.6.6",
+    "connect-static-file": "~2.0.0",
+    "minimist": "~1.2.5",
+    "serve-static": "~1.13.2"
   },
   "devDependencies": {
-    "@tap-format/spec": "0.2.0",
-    "got": "9.2.2",
-    "prettier": "1.14.3",
-    "tape": "4.9.1"
+    "@tap-format/spec": "~0.2.0",
+    "got": "~9.2.2",
+    "prettier": "~1.14.3",
+    "tape": "~4.9.1"
   },
   "bin": {
     "pushstate-server": "./bin/pushstate-server"
